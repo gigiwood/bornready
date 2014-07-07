@@ -12,8 +12,11 @@ Born Ready is an app that needs to be completed from start to finish. In two wee
 Deliverables
 Completion of this project will allow users to use the Born Ready app to perform the following actions:
 	•	Marking items as completed
+	
 	•	Marking items as not applicable
+	
 	•	Unmarking items
+	
 	•	Save progress 
 
 Aesthetics and UX will be designed on best-effort basis.
