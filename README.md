@@ -21,26 +21,43 @@ Completion of this project will allow users to use the Born Ready app to perform
 Aesthetics and UX will be designed on best-effort basis.
 
 Scope
+
 For this project the following items are in scope:
+
 	•	The user will be able to mark items as completed by checking a relevant checkbox.
+	
 	•	The user will be able to mark an already completed item as incomplete by unchecking a relevant checkbox.
+	
 	•	The user will be able to mark items as not applicable by checking a relevant box.
+	
 	•	Completed items will be shown differently from pending items.
+	
 
 The following items are out of scope:
+
 	•	Multiple user accounts / logging in
+	
 	•	Grouping pending items.
+	
 	•	Security
+	
 	•	Deleting items
+	
 	•	QR/Barcode scanner to check for recalls
+	
 	•	Social media aspect, i.e. the ability to share the completed checklist via Facebook
+	
 
 Technology Stack
-	•	Node.js for server side programming
-	•	JavaScript with jQuery for client side programming
-	•	Bootstrap for basic styling and responsive layout
-	•	PhoneGap to support multiple platforms
 
+	•	Node.js for server side programming
+	
+	•	JavaScript with jQuery for client side programming
+	
+	•	Bootstrap for basic styling and responsive layout
+	
+	•	PhoneGap to support multiple platforms
+	
 
 
 
