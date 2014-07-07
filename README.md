@@ -10,6 +10,7 @@ Technical Overview:
 Born Ready is an app that needs to be completed from start to finish. In two weeks, we plan to create a checklist app that can communicate with a server and save users’ results. There are wireframes available for our reference. In addition, the app will likely use HTML5/CSS3 and Javascript to develop the checklist app and then use PhoneGap to convert it to other platforms.
 
 Deliverables
+
 Completion of this project will allow users to use the Born Ready app to perform the following actions:
 
 	•	Marking items as completed
