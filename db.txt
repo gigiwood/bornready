@@ -1,0 +1,34 @@
+//sql database outline 
+house_areas
+	- id
+	- name
+
+todos
+	- id
+	- description
+
+todos_for_house_areas
+	- id
+	- house_areas_id
+	- todos_id
+
+completed_items
+	- id
+	- todos_for_house_areas_id
+
+
+items = {
+	"garage": [
+		{
+			description: "Replace Scissors",
+			state: "checked"
+		}
+	]
+}
+
+pages = {
+	"garage": {
+		name: "Garage",
+		image: "/path/to/image.png"
+	}
+}
