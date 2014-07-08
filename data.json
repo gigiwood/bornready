@@ -1,0 +1,44 @@
+[
+{ 
+	"housearea":"kitchen",
+	"description": "Replace scissors with childproof scissors.",
+	"id":"1",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"id":"2",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Install childproof latches on all cabinet doors.",
+	"id":"3",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Store all garbage bags and plastic bags out of reach.",
+	"id":"4",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Place refrigerator magnets out of reach.",
+	"id":"5",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Unplug all appliances when not in use.",
+	"id":"6",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+},
+{ 
+	"housearea":"kitchen",
+	"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+	"id":"7",
+	"completed":"3" //completed 1=true, 2=false, 3=NA
+}
+]
