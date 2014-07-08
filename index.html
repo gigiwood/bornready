@@ -2,21 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Born Ready</title>
 	<link rel="stylesheet" type="text/css" href="css/ratchet.css">
 	<link rel="stylesheet" type="text/css" href="css/ratchet-theme.ios.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div class="card">
-  <ul class="table-view">
-    <li class="table-view-cell">Item 1</li>
-    <li class="table-view-cell">Item 2</li>
-    <li class="table-view-cell table-view-divider">Divider</li>
-    <li class="table-view-cell">Item 3</li>
-    <li class="table-view-cell">Item 4</li>
-  </ul>
+
+
+
+<header class="bar bar-nav">
+  <a class="icon icon-left-nav pull-left"></a> <!-- pull left, pull right is similar to "float" in CSS -->
+  <a class="icon icon-plus pull-right"></a> 
+  <h1 class="title">Room</h1>
+</header>
+
+<div class="content"> <!-- "Content" allows for scrolling, similar to container in CSS -->
+<div class="card">  <!-- Exploring "card" content in Ratchet. Card holds the checklist -->
+    <ul class="table-view">
+      <li class="table-view-cell">
+          Check Box <input type="checkbox" class="pull-right" /> 
+      </li>
+      <li class="table-view-cell">
+          Check Box <input type="checkbox" class="pull-right"/> 
+      </li>
+      <li class="table-view-cell">
+          Check Box <input type="checkbox" class="pull-right"/> 
+      </li>
+      <li class="table-view-cell">
+          Check Box <input type="checkbox" class="pull-right"/> 
+      </li>
+    </ul>
+    </div>
 </div>
 
+
+<!-- script code for jQuery, Ratchet  -->
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/ratchet.js"></script>
     

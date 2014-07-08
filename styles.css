@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Aller-regular; /* check this hyphen later for errors */
+	src: url(aller.tff);
+
+	font-family: Aller-light;
+	src: url(aller.tff);
+
+	font-family: Aller-light-italic;
+	src: url(aller.tff);
+
+	font-family: Aller-italic;
+	src: url(aller.tff);
+
+	font-family: Aller-bold;
+	src: url(aller.tff);
+
+	font-family: Aller-bold-italic;
+	src: url(aller.tff);
+
+	font-family: Aller-Display;
+	src: url(aller.tff);
+
+}
+
+content {
+	background-color: #ffdab9;
+	font-family: ;
+
+}
