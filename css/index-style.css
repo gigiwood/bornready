@@ -1,0 +1,21 @@
+img {
+	padding: 0;
+}
+
+body {
+	background-color: #FBE7D5;	
+}
+
+.content {
+	background-color: #FBE7D5;
+}
+
+div.col-md-4 {
+	height: 626px; 
+	width: 452px;
+}
+
+/* moves content box below title */
+.bar-nav ~ .content {
+	padding-top: 456px;
+} 
