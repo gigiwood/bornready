@@ -2,7 +2,6 @@
 { 
 	"housearea":"kitchen",
 	"items": [
-	
 	{ 
 		"description": "Replace scissors with childproof scissors.",
 	"completed":"2" //completed 1=true, 2=false, 3=NA
@@ -14,9 +13,9 @@
 	{ 
 		"description": "Install childproof latches on all cabinet doors.",
 	"completed":"2" //completed 1=true, 2=false, 3=NA
-}
-{ 
-	"description": "Store all garbage bags and plastic bags out of reach.",
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
 	"completed":"2" //completed 1=true, 2=false, 3=NA
 	},
 	{ 
@@ -35,4 +34,230 @@
 	]
 }
 ]
+
+[
+{ 
+	"housearea":"living room",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+
+[
+{ 
+	"housearea":"nursery",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+[
+{ 
+	"housearea":"garage",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+
+[
+{ 
+	"housearea":"kitchen",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+[
+{ 
+	"housearea":"bathroom",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+[
+{ 
+	"housearea":"outdoors",
+	"items": [
+	{ 
+		"description": "Replace scissors with childproof scissors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Use stove knob covers or locks to prevent access to burner knobs.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Install childproof latches on all cabinet doors.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Store all garbage bags and plastic bags out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place refrigerator magnets out of reach.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Unplug all appliances when not in use.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	},
+	{ 
+		"description": "Place all knives, forks, scissors, and other sharp tools in a drawer with a childproof latch.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+	}
+
+	]
+}
+]
+
+
 
