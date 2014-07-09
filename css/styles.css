@@ -1,0 +1,67 @@
+/* Importing the Aller font */
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_Rg.ttf) format("truetype");
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/AllerDisplay.ttf) format("truetype");
+}
+*/
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_Bd.ttf) format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_Lt.ttf) format("truetype");
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_It.ttf) format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_BdIt.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(fonts/Aller/Aller_LtIt.ttf) format("truetype");
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.content {
+	background-color: #ffdab9;
+	font-family: "Aller";
+	padding: 0;
+}
+
+.card {
+	margin: 0;
+	padding: 0;
+	background-color: #ffdab9;
+}
+
+.table-view-cell {
+	background-color: #ffdab9;
+	padding-right: 10px; /* moves the checkbox farther right*/
+	color: #6B6B6B; /* #4D4747 */ 
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.check-box {
+border: 5px solid #75C2C2;
+}
