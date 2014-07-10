@@ -1,0 +1,21 @@
+body {
+	background-color: #FFE7D4;
+	background-image: url(../images/walkthrough/walkthrough2.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+
+}
+
+img {
+	padding: 0;
+	display: block;
+	margin: auto;
+}
+
+#all-items {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+}

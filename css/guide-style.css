@@ -1,0 +1,143 @@
+body {
+	background-color: #FBE7D5;
+}
+
+img {
+	padding: 0;
+	margin: auto;
+}
+
+#heading {
+	background-color: #FBE7D5;
+	border: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 20%;
+	background-image: url(../images/guideheader.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+
+.main-menu-content {
+	margin-top: 90px;
+}
+
+.buttons{
+	max-width: 1300px;
+}
+
+#all-items {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 20%;
+}
+
+.picbox {
+	position: absolute;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: contain !important;
+}
+
+div.picbox a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+.br-col-1 {
+	left: 0%;
+	width: 33.33333%;
+}
+
+.br-col-2 {
+	left: 33.333333%;
+	width: 33.33333%;
+}
+
+.br-col-3 {
+	left: 66.6666666%;
+	width: 33%;
+}
+
+.br-row-1 {
+	top: 0%;
+	height: 33.333333%;
+}
+
+.br-row-2 {
+	top: 33.333333%;
+	height: 33.333333%;
+}
+
+.br-row-3 {
+	top: 66.666666%;
+	height: 33.333333%;
+}
+
+#kitchen {
+    background: url(../images/kitchen.png);
+    background-color: #FFE699;
+}
+
+#livingroom {
+    background: url(../images/livingroom.png);
+    background-color: #76B2B4;
+}
+
+#nursery {
+    background: url(../images/nursery.png);
+    background-color: #C06D4C;
+}
+
+#garage {
+    background: url(../images/garage.png);
+    background-color: #9B5437;
+}
+
+#bathroom {
+    background: url(../images/bathroom.png);
+    background-color: #539597;
+}
+
+#outdoors {
+    background: url(../images/outdoors.png);
+    background-color: #FFD85D;
+}
+
+#experttips {
+    background: url(../images/experttips.png);
+    background-color: #C06D4C;
+}
+
+#profile {
+    background: url(../images/profile.png);
+    background-color: #FFE699;
+}
+
+#favorites {
+    background: url(../images/favorites.png);
+    background-color: #76B2B4;
+}
+
+
+
+
+
+
+
+
+
+
