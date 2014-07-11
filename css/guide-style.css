@@ -1,10 +1,63 @@
+/* Importing the Aller font */
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_Rg.ttf) format("truetype");
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/AllerDisplay.ttf) format("truetype");
+}
+*/
+
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_Bd.ttf) format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_Lt.ttf) format("truetype");
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_It.ttf) format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_BdIt.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller/Aller_LtIt.ttf) format("truetype");
+	font-weight: lighter;
+	font-style: italic;
+}
+
+/* Generic Styling */
 body {
-	background-color: #FBE7D5;
+	font-family: "Aller";
+	color: #6B6B6B; /* grey // #4D4747 */ 
+	font-weight: bold;
+	font-size: 14px;
 }
 
 img {
 	padding: 0;
 	margin: auto;
+}
+
+a {
+	text-decoration: none;
 }
 
 #heading {
@@ -15,18 +68,10 @@ img {
 	left: 0px;
 	right: 0px;
 	height: 20%;
-	background-image: url(../images/guideheader.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-}
-
-.main-menu-content {
-	margin-top: 90px;
-}
-
-.buttons{
-	max-width: 1300px;
+	padding: 0;
 }
 
 #all-items {
@@ -37,14 +82,85 @@ img {
 	top: 20%;
 }
 
-.picbox {
+/* Generic Checklist Styles */ 
+
+.checklist-header {
+	border: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 18%;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+
+.checklist-heading .icon-left-nav {
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+	/* left: 25%; */ 
+	text-decoration: none;
+	position: relative;
+	z-index: 20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.card {
+	margin: 0;
+	padding: 0;
+	background-color: #ffdab9;
+}
+
+.table-view-cell {
+	background-color: #ffdab9;
+	padding-right: 10px; /* moves the checkbox farther right*/
+}
+
+.checkbox {
+border: 5px solid #75C2C2;
+height: 22px;
+width: 22px;
+}
+
+.checkmark, .xmark {
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.description {
+	display: inline-block;
+	max-width: 250px;
+}
+
+.todo-table {
+	height: 60px;
+}
+
+/* Page Specific Styles */
+/* Guide Styles */
+.guide-heading  {
+	background-color: #FBE7D5;	
+	background-image: url(../images/guideheader.png); /*sets the background image to "born ready" graphic */
+}
+/*
+.buttons{
+	max-width: 1300px;
+}
+*/
+
+.guide-content .picbox {
 	position: absolute;
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: contain !important;
 }
 
-div.picbox a {
+.guide-content .picbox a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -57,9 +173,10 @@ div.picbox a {
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 
+/* guide icon table proportions */
 .br-col-1 {
 	left: 0%;
-	width: 33.33333%;
+	width: 33.33333%;x`
 }
 
 .br-col-2 {
@@ -87,6 +204,8 @@ div.picbox a {
 	height: 33.333333%;
 }
 
+/* guide icon table images */
+
 #kitchen {
     background: url(../images/kitchen.png);
     background-color: #FFE699;
@@ -94,7 +213,7 @@ div.picbox a {
 
 #livingroom {
     background: url(../images/livingroom.png);
-    background-color: #76B2B4;
+    background-color: #76B2B4; /* teal */
 }
 
 #nursery {
@@ -132,6 +251,20 @@ div.picbox a {
     background-color: #76B2B4;
 }
 
+/* Kitchen */
+.kitchen {
+	background-color: #ffdab9; /* peach */
+}
+.kitchen-heading {
+	background-image: url(../images/header/kitchenheader1.png);
+	background-color: #76B2B4; /* teal */
+}
+
+.kitchen {
+	background-color: #ffdab9; /* peach */
+	padding: 0;
+	border-top: 18%
+}
 
 
 

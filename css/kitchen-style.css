@@ -46,7 +46,7 @@ body {
 	background-color: #FBE7D5;
 }
 
-#heading {
+.checklist-heading {
 	background-color: #76B2B4;
 	border: none;
 	position: absolute;
@@ -55,10 +55,14 @@ body {
 	right: 0px;
 	height: 18%;
 	padding: 0;
-	background-image: url(../images/header/kitchenheader1.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
+}
+
+#heading-kitchen {
+	background-image: url(../images/header/kitchenheader1.png);
+
 }
 
 .icon-left-nav {
@@ -75,11 +79,10 @@ body {
 	border-top: 18%
 }
 
-.card {
+div.card {
 	margin: 0;
 	padding: 0;
 	background-color: #ffdab9;
-	padding-top: 102px;
 }
 
 .table-view-cell {
@@ -100,4 +103,13 @@ width: 22px;
 	position: relative;
 	top: -10px;
 	left: -10px;
+}
+
+.description {
+	display: inline-block;
+	max-width: 250px;
+}
+
+.todo-table {
+	height: 60px;
 }
