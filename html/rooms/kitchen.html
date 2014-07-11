@@ -8,36 +8,26 @@
   <link rel="stylesheet" type="text/css" href="../../css/kitchen-style.css">
 </head>
 <body>
-  <header id="heading" class="bar bar-nav">
+  <header id="heading" class="bar bar-header">
     <!-- back button links to guide page -->
     <a class="icon icon-left-nav left-nav pull-left" href="../guide.html"></a> 
     <!-- pull left, pull right are similar to "float" in CSS --> 
   </header>
 
 <div class="content page-content"> <!-- "Content" allows for scrolling, similar to container in Bootstrap -->
-<div id="all-items">
-<div class="card">  <!-- Exploring "card" content in Ratchet. Card holds the checklist -->
-    <ul class="table-view">
-      <li class="table-view-cell"> 
-          Checkbox <input type="checkbox" class="pull-right check-box" />
-      </li>
-      <li class="table-view-cell"> 
-          Checkbox <input type="checkbox" class="pull-right"/> 
-      </li>
-      <li class="table-view-cell">
-          Checkbox <input type="checkbox" class="pull-right"/> 
-      </li>
-      <li class="table-view-cell">
-          Checkbox <input type="checkbox" class="pull-right"/> 
-      </li>
-    </ul>
+  <div id="all-items">
+    <div class="card">  <!-- Exploring "card" content in Ratchet. Card holds the checklist -->
+      <ul class="table-view">
+      </ul>
     </div>
-</div>
+  </div>
 </div>
 
 <!-- script code for jQuery, Ratchet  -->
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="../../js/ratchet.js"></script>
+  <script src="../../js/ratchet.js"></script>
+  <script src="../../data.js"></script>
+  <script src="../../js/checklist.js"></script>
     
 </body>
 </html>

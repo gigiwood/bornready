@@ -1,4 +1,5 @@
-[
+CHECKLISTS = [
+
 { 
 	"housearea":"kitchen",
 	"items": [
@@ -15,7 +16,7 @@
 		//"description": "Prevents child from opening a potentially hot oven."
 	},
 	{ 
-		"description": "Install stove guard to block access to burners .",
+		"description": "Install stove guard to block access to burners.",
 		"completed":"2" //completed 1=true, 2=false, 3=NA
 		//dropdown info
 		//"description": "Barrier keeps small hands away from burners."
@@ -33,7 +34,7 @@
 		//"description": "Prevents baby from yanking loose cloth and having items fall on them."
 	},
 	{ 
-		"description": "Remove magnets from the refrigerator .",
+		"description": "Remove magnets from the refrigerator.",
 		"completed":"2" //completed 1=true, 2=false, 3=NA
 		//dropdown info
 		//"description": "Potential choking hazard."

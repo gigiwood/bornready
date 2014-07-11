@@ -53,7 +53,7 @@ body {
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	height: 20%;
+	height: 18%;
 	padding: 0;
 	background-image: url(../images/header/kitchenheader1.png);
 	background-repeat: no-repeat;
@@ -72,13 +72,14 @@ body {
 	background-color: #ffdab9;
 	font-family: "Aller";
 	padding: 0;
+	border-top: 18%
 }
-
 
 .card {
 	margin: 0;
 	padding: 0;
 	background-color: #ffdab9;
+	padding-top: 102px;
 }
 
 .table-view-cell {
@@ -89,7 +90,14 @@ body {
 	font-size: 14px;
 }
 
-.check-box {
+.checkbox {
 border: 5px solid #75C2C2;
+height: 22px;
+width: 22px;
 }
 
+.checkmark, .xmark {
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
