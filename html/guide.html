@@ -17,7 +17,7 @@
 <body>
    <script src="../../data.js"></script>
    <script src="../../js/checklist.js"></script>
-    <header id="heading" class="bar bar-nav guide-heading">
+    <header id="guide-heading" class="bar bar-nav heading">
     </header>
    <div class="content guide-content">
     
@@ -43,6 +43,7 @@
  window.addEventListener("push", function(e) {
   console.log("Something was pushed!");
   var pageIndex = parseInt($(".content").attr("data-index"));
+  console.log(pageIndex, e)
   loadItemsAtIndex(pageIndex);
 })
  </script>

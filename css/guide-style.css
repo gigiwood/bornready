@@ -60,8 +60,8 @@ a {
 	text-decoration: none;
 }
 
-#heading {
-	background-color: #FBE7D5;
+.heading {
+	background-color: #FBE7D5; /* peach, light grayish orange */
 	border: none;
 	position: absolute;
 	top: 0px;
@@ -79,7 +79,7 @@ a {
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	top: 20%;
+	top: 18%;
 }
 
 /* Generic Checklist Styles */ 
@@ -99,7 +99,7 @@ a {
 
 .checklist-heading .icon-left-nav {
 	color: white;
-	font-size: 24px;
+	font-size: 27px;
 	font-weight: bolder;
 	/* left: 25%; */ 
 	text-decoration: none;
@@ -112,16 +112,18 @@ a {
 .card {
 	margin: 0;
 	padding: 0;
-	background-color: #ffdab9;
+	background-color: #ffdab9; /* peach, pale orange */
+	border: none;
+	border-radius: 0;
 }
 
 .table-view-cell {
-	background-color: #ffdab9;
+	background-color: #ffdab9; /* peach, pale orange */
 	padding-right: 10px; /* moves the checkbox farther right*/
 }
 
 .checkbox {
-border: 5px solid #75C2C2;
+border: 5px solid #75C2C2; /* teal (slightly desaturated cyan) */
 height: 22px;
 width: 22px;
 }
@@ -143,15 +145,10 @@ width: 22px;
 
 /* Page Specific Styles */
 /* Guide Styles */
-.guide-heading  {
-	background-color: #FBE7D5;	
+#guide-heading  {
+	background-color: #FBE7D5;	/* peach, light grayish orange */
 	background-image: url(../images/guideheader.png); /*sets the background image to "born ready" graphic */
 }
-/*
-.buttons{
-	max-width: 1300px;
-}
-*/
 
 .guide-content .picbox {
 	position: absolute;
@@ -168,7 +165,7 @@ width: 22px;
     left: 0;
     text-decoration: none; /* No underlines on the link */
     z-index: 10; /* Places the link above everything else in the div */
-    background-color: #FFF; /* Fix to make div clickable in IE */
+    background-color: white; /* Fix to make div clickable in IE */
     opacity: 0; /* Fix to make div clickable in IE */
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
@@ -176,7 +173,7 @@ width: 22px;
 /* guide icon table proportions */
 .br-col-1 {
 	left: 0%;
-	width: 33.33333%;x`
+	width: 33.33333%;
 }
 
 .br-col-2 {
@@ -208,69 +205,60 @@ width: 22px;
 
 #kitchen {
     background: url(../images/kitchen.png);
-    background-color: #FFE699;
+    background-color: #FFE699; /* very light yellow */
 }
 
 #livingroom {
     background: url(../images/livingroom.png);
-    background-color: #76B2B4; /* teal */
+    background-color: #76B2B4; /* teal (cyan) */
 }
 
 #nursery {
     background: url(../images/nursery.png);
-    background-color: #C06D4C;
+    background-color: #C06D4C; /* moderate orange */
 }
 
 #garage {
     background: url(../images/garage.png);
-    background-color: #9B5437;
+    background-color: #9B5437; /* dark moderate orange */
 }
 
 #bathroom {
     background: url(../images/bathroom.png);
-    background-color: #539597;
+    background-color: #539597; /* teal (dark moderate cyan) */
 }
 
 #outdoors {
     background: url(../images/outdoors.png);
-    background-color: #FFD85D;
+    background-color: #FFD85D; /* light yellow */
 }
 
 #experttips {
     background: url(../images/experttips.png);
-    background-color: #C06D4C;
+    background-color: #C06D4C; /* moderate orange */
 }
 
 #profile {
     background: url(../images/profile.png);
-    background-color: #FFE699;
+    background-color: #FFE699; /* very light yellow */
 }
 
 #favorites {
     background: url(../images/favorites.png);
-    background-color: #76B2B4;
+    background-color: #76B2B4; /* teal (slightly desaturated cyan) */
 }
 
 /* Kitchen */
-.kitchen {
-	background-color: #ffdab9; /* peach */
-}
-.kitchen-heading {
-	background-image: url(../images/header/kitchenheader1.png);
-	background-color: #76B2B4; /* teal */
+#kitchen-heading {
+	background-image: url(../images/header/kitchenheader2.png);
+	/* background-color: #76B2B4; */ /* teal (slightly desaturated cyan) */ 
+	background-color: #FFE699; /* very light yellow */
+	height: 18%;
+	top: -1px;
 }
 
 .kitchen {
-	background-color: #ffdab9; /* peach */
+	background-color: #ffdab9; /* peach, pale orange */
 	padding: 0;
-	border-top: 18%
 }
-
-
-
-
-
-
-
-
 
