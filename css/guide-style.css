@@ -56,10 +56,6 @@ img {
 	margin: auto;
 }
 
-a {
-	text-decoration: none;
-}
-
 .heading {
 	background-color: #FBE7D5; /* peach, light grayish orange */
 	border: none;
@@ -144,12 +140,119 @@ width: 22px;
 }
 
 /* Page Specific Styles */
+
+/* Walkthrough (Index) */
+
+#walk1 a:link {
+    text-decoration: none;
+}
+
+#walk1 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#walk1 a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#walk1 a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#tutorial {
+	left: 4%;
+}
+
+#skip {
+	left: 52%;
+}
+
+.walk-content {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #FFE7D4;
+}
+.walk-img {
+	width:100%;
+	height:auto;
+	display:block;
+}
+
+.walk-btn {
+	top: 45%;
+	position: absolute;	
+	background-color:#61B5B6;
+	color:white;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	font-family:"Aller";
+	font-size:26px;
+	font-weight:bold;
+	font-style:normal;
+	height:60px;
+	line-height:60px;
+	width:140px;
+	border-radius: 25px;
+	border-color: #61B5B6;
+	box-shadow: 0px 5px 5px #6B6B6B;
+}
+
+/* Walkthrough 2 (Guide) */
+.walk-right {
+	position: absolute;
+	top: 60%;
+	left:80%;
+}
+
+
 /* Guide Styles */
 #guide-heading  {
 	background-color: #FBE7D5;	/* peach, light grayish orange */
 	background-image: url(../images/guideheader.png); /*sets the background image to "born ready" graphic */
 }
 
+/* Info Button - Guide Header */
+/* Note: The info button is transparent and is positioned on top of the 
+	? mark image */
+.info-button {
+	width:10%;
+	position: absolute;
+	top: 60%;
+	left:80%;
+	opacity: 0;
+}
+.info-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #4679BD; /* blue */ 
+}
+
+.info-button a {
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:white;
+    font-family:"Aller";
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* 3x3 grid of icons for rooms */
 .guide-content .picbox {
 	position: absolute;
 	background-repeat: no-repeat !important;
@@ -170,7 +273,7 @@ width: 22px;
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 
-/* guide icon table proportions */
+/* guide - icon table proportions */
 .br-col-1 {
 	left: 0%;
 	width: 33.33333%;

@@ -47,11 +47,3 @@
 		}
 	});
 };
-
-/*
-$(this).parent();
-$(this).find(".")
-
-
-//color:#7f7f7f
-*/
