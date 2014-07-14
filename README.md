@@ -15,10 +15,10 @@ In two weeks, we plan to create a checklist app that can communicate with a serv
 
 Completion of this project will allow users to use the Born Ready app to perform the following actions:
 
-	+	Marking items as completed
-	+	Marking items as not applicable
-	+	Unmarking items
-	+ 	Save progress 
+	•	Marking items as completed
+	•	Marking items as not applicable
+	•	Unmarking items
+	• 	Save progress 
 
 Aesthetics and UX will be designed on best-effort basis.
 
