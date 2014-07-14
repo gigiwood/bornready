@@ -15,27 +15,33 @@
 
 </head>
 <body>
-  <script src="../../data.js"></script>
-  <script src="../../js/checklist.js"></script>
+  <script src="data.js"></script>
+
   <div id="walk1" class="content walk-content">
    <img class="walk-img img-responsive" src="images/walkthrough/walkthrough1.png" />
+   <!--specific style for tutorial, skip buttons -->  
    <a id="tutorial" class="walk-btn" href="html/walkthrough/walkthrough2.html"><div>TUTORIAL</div></a>
    <a id="skip" class="walk-btn" href="html/guide.html">SKIP</a>
-  </div>
+ </div>
 
-  <!-- script code for jQuery, Bootstrap, Ratchet  -->
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="js/ratchet.js"></script>
+ <!-- script code for jQuery, jQuery mobile, Bootstrap, Ratchet  -->
+ <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <script src="js/ratchet.js"></script>
+ <script src="js/smoothscroll.js"></script>
+ <script src="js/checklist.js"></script>
+ <script src="js/slider.js"></script>
 
-  <script>
-    window.addEventListener("push", function(e) {
+ <!-- ratchet code for page transitions/navigation (push.js) -->
+ <script>
+  window.addEventListener("push", function(e) {
     console.log("Something was pushed!");
     var pageIndex = parseInt($(".content").attr("data-index"));
     console.log(pageIndex, e)
     loadItemsAtIndex(pageIndex);
-    });
- </script>
-    
+  });
+</script>
+
 </body>
 </html>

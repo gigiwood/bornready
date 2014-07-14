@@ -2,17 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" type="text/css" href="../../css/guide-style.css">
+
   <title>Born Ready</title>
+  <!-- forward button links to 3rd walkthrough page -->
 </head>
 
 <body>
+
   <div id="walk2" class="content walk-content">
-    <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough2.png"/>
-      <!-- forward button links to 3rd walkthrough page -->
-      <a class="icon icon-right-nav right-nav pull-right walk-right" href="walkthrough3.html"></a>
+
+<!-- 
+
+  <a class="icon icon-right-nav right-nav pull-right walk-right" href="walkthrough3.html"></a>
+  <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough2.png"/>-->
+
+  <div id="TouchScroller">
+    <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough2.png" id="walk2" />
+    <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough3.png" id="walk3" />
+    <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough4.png" id="walk4" />
+    <img class="walk-img img-responsive" src="../../images/walkthrough/walkthrough5.png" id="walk5" />
   </div>
+
+
+</div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
 </body>
 </html>

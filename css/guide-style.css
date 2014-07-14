@@ -70,6 +70,7 @@ img {
 	padding: 0;
 }
 
+/* all-items includes the top margin, everything except header */
 #all-items {
 	position: absolute;
 	left: 0px;
@@ -169,7 +170,7 @@ width: 22px;
 #skip {
 	left: 52%;
 }
-
+/* .walk-content may not be necessary */
 .walk-content {
 	position: absolute;
 	margin: 0;
@@ -178,12 +179,14 @@ width: 22px;
 	background-position: top center;
 	background-color: #FFE7D4;
 }
+/* .walk-img contains the code for the walkthrough1.png */
 .walk-img {
 	width:100%;
 	height:auto;
 	display:block;
 }
 
+/* style for walk buttons */
 .walk-btn {
 	top: 45%;
 	position: absolute;	
@@ -365,3 +368,11 @@ width: 22px;
 	padding: 0;
 }
 
+#TouchScroller div.scrollableArea *
+{
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}

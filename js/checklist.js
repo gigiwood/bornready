@@ -11,6 +11,7 @@
   var loadItemsAtIndex = function(itemIndex) {
   	$.each(CHECKLISTS[itemIndex].items, function( idx, item ) {
   		console.log(idx, item);
+  		console.log(itemIndex);
   		var checkboxdiv = "<div class='pull-right checkbox'>" + "<div class='check'><img class='checkmark marks' src='../../images/green-checkmark.png'></div>" + "<div class='x'><img class='xmark marks' src='../../images/x-mark.png'></div>" + "</div>"
   		var itemElement = $("<li class='todo-table table-view-cell' id='"  + CHECKLISTS[0].housearea +"-"+ idx + "'>" + "<span class='description'>" + item.description + "</span>" + checkboxdiv + "</li>") ;
 	    //items.push( item);
