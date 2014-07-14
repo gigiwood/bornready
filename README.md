@@ -7,16 +7,18 @@ Overview:
 Born Ready is a mobile application designed to assist expecting parents childproof their homes. The user is provided with a checklist of items, sorted by rooms in the house of things to childproof in the home, as directed by the app. The user can check a box once that element has been childproofed. The program enables users to save their progress.
 
 ###Technical Overview:
-Born Ready is an app that needs to be completed from start to finish. In two weeks, we plan to create a checklist app that can communicate with a server and save users’ results. There are wireframes available for our reference. In addition, the app will likely use HTML5/CSS3 and Javascript to develop the checklist app and then use PhoneGap to convert it to other platforms.
+Born Ready is an app that needed to be coded from scratch. The images, which were provided, were created in PowerPoint, and only needed to be ungrouped and saved as .png files. 
+
+In two weeks, we plan to create a checklist app that can communicate with a server and save users’ results. There are PowerPoint wireframes available for our reference. In addition, the app will likely use HTML5/CSS3 and Javascript to develop the checklist app and then use Ratchet and PhoneGap to convert it to other platforms.
 
 ###Deliverables
 
 Completion of this project will allow users to use the Born Ready app to perform the following actions:
 
-	•	Marking items as completed
-	•	Marking items as not applicable
-	•	Unmarking items
-	•	Save progress 
+	1.	Marking items as completed
+	2.	Marking items as not applicable
+	3.	Unmarking items
+	4. 	Save progress 
 
 Aesthetics and UX will be designed on best-effort basis.
 
