@@ -24,7 +24,7 @@ Aesthetics and UX will be designed on best-effort basis.
 
 ###Scope
 
-For this project the following items are in scope:
+For this two-week project the following items are in scope:
 
 	•	The user will be able to mark items as completed by checking a relevant checkbox.
 	•	The user will be able to mark an already completed item as incomplete by unchecking a relevant checkbox.
@@ -46,5 +46,6 @@ The following items are out of scope:
 	•	Node.js for server side programming
 	•	JavaScript with jQuery for client side programming
 	•	Bootstrap for basic styling and responsive layout
+	•	Ratchet for mobile app functionality
 	•	PhoneGap to support multiple platforms
 	
