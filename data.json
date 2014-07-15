@@ -168,7 +168,13 @@
 	//"description": "There should be no more than two fingers of space between the side of the mattress and the crib frame. Any larger and your baby may become entrapped between the two, resulting in injury or suffocation."
 	},
 	{ 
-		"description": "Remove soft toys and bedding from crib. Leave only a thin mattress and fitted sheet.",
+		"description": "Remove soft toys and bedding from crib.",
+	"completed":"2" //completed 1=true, 2=false, 3=NA
+	//dropdown info
+	//"description": "Blankets, pillows and bumpers of any kind pose a risk of suffocation and or entrapment and should never be used in a crib."
+	},
+{ 
+		"description": "Leave only thin mattress, fitted sheet in crib.",
 	"completed":"2" //completed 1=true, 2=false, 3=NA
 	//dropdown info
 	//"description": "Blankets, pillows and bumpers of any kind pose a risk of suffocation and or entrapment and should never be used in a crib."
@@ -335,7 +341,7 @@
 		//"description": "."
 	},
 	{ 
-		"description": "Ensure ground cover is soft (ie grass or rubber) and avoid pea gravel at all costs.",
+		"description": "Ensure ground cover is soft (ie. grass or rubber). Avoid pea gravel at all costs.",
 		"completed":"2" //completed 1=true, 2=false, 3=NA
 		//dropdown info
 		//"description": "Pea gravel is a choking hazard."
