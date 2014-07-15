@@ -160,6 +160,16 @@ width: 22px;
     color: white;
 }
 
+/* Make walkthrough responsive
+.walk-content img {
+	max-height: 100%;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+
 #tutorial {
 	left: 4%;
 }
@@ -235,6 +245,12 @@ width: 22px;
 #guide-heading  {
 	background-color: #FBE7D5;	/* peach, light grayish orange */
 	background-image: url(../images/guideheader.png); /*sets the background image to "born ready" graphic */
+}
+
+/* fixes white space on right edge of icon table */
+.guide-content #all-items {
+	left: -1%;
+	right: -1%;
 }
 
 /* Info Button - Guide Header */
