@@ -257,7 +257,54 @@ CHECKLISTS = [
 	]
 }
 ,
+{ 
+	"housearea":"outdoors",
+	"items": [
+	{ 
+		"description": "Ensure backyard gates latch securly.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "."
+	},
+	{ 
+		"description": "Empty wading pools and store upright after each use.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "."
+	},
+	{ 
+		"description": "Install locked fence around permanent pool structures.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "."
+	},
+	{ 
+		"description": "Ensure ground cover is soft (ie grass or rubber) and avoid pea gravel at all costs.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "Pea gravel is a choking hazard."
+	},
+	{ 
+		"description": "Avoid dangerous plants.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "Including those that are toxic (mushrooms), prickly (rose, bougainvillea), bear fruits (berries)."
+	},
+	{ 
+		"description": "Ensure fertilizers and insecticides are safe during and after application.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": ""
+	},
+	{ 
+		"description": "Store garden hoses out of the sun.",
+		"completed":"2" //completed 1=true, 2=false, 3=NA
+		//dropdown info
+		//"description": "Water remaining in hose can heat and scald child."
+	}
 
+	]
+},
 { 
 	"housearea":"bathroom",
 	"items": [
@@ -311,58 +358,7 @@ CHECKLISTS = [
 	}
 
 	]
-}
-
- ,
-{ 
-	"housearea":"outdoors",
-	"items": [
-	{ 
-		"description": "Ensure backyard gates latch securly.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "."
-	},
-	{ 
-		"description": "Empty wading pools and store upright after each use.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "."
-	},
-	{ 
-		"description": "Install locked fence around permanent pool structures.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "."
-	},
-	{ 
-		"description": "Ensure ground cover is soft (ie grass or rubber) and avoid pea gravel at all costs.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "Pea gravel is a choking hazard."
-	},
-	{ 
-		"description": "Avoid dangerous plants.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "Including those that are toxic (mushrooms), prickly (rose, bougainvillea), bear fruits (berries)."
-	},
-	{ 
-		"description": "Ensure fertilizers and insecticides are safe during and after application.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": ""
-	},
-	{ 
-		"description": "Store garden hoses out of the sun.",
-		"completed":"2" //completed 1=true, 2=false, 3=NA
-		//dropdown info
-		//"description": "Water remaining in hose can heat and scald child."
-	}
-
-	]
-}
-]
+}]
 
 
 

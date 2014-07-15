@@ -37,10 +37,26 @@
  <script>
   window.addEventListener("push", function(e) {
     console.log("Something was pushed!");
+    if ($(".content").attr("data-name") === ("tutorial" || "guide")) {
+
+    }
+    else {
     var pageIndex = parseInt($(".content").attr("data-index"));
-    console.log(pageIndex, e)
+    console.log(pageIndex, e);
     loadItemsAtIndex(pageIndex);
+  }
   });
+/*
+$(function(){
+
+document
+.querySelector('#mySlider')
+.addEventListener('slide', myFunction)
+
+
+})
+*/
+
 </script>
 
 </body>
