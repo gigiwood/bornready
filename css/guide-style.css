@@ -57,6 +57,9 @@ img {
 }
 
 .heading {
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: contain !important;
 	background-color: #FBE7D5; /* peach, light grayish orange */
 	border: none;
 	position: absolute;
@@ -64,9 +67,6 @@ img {
 	left: 0px;
 	right: 0px;
 	height: 20%;
-	background-repeat: no-repeat !important;
-	background-position: center center;
-	background-size: contain !important;
 	padding: 0;
 }
 
@@ -84,7 +84,6 @@ img {
 .checklist-heading {
 	top: -1px;
 	height: 18%;
-
 }
 
 .checklist-heading .icon-left-nav {
