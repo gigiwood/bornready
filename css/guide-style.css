@@ -82,7 +82,7 @@ img {
 /* Generic Checklist Styles */ 
 
 .checklist-heading {
-	top: -1px;
+	top: -1%;
 	height: 18%;
 }
 
@@ -109,6 +109,10 @@ img {
 	background-color: #ffdab9; /* peach, pale orange */
 	border: none;
 	border-radius: 0;
+}
+
+.table-view {
+	background-color: #ffdab9;
 }
 
 .table-view-cell {
@@ -171,22 +175,33 @@ width: 22px;
 */
 
 #tutorial {
-	left: 4%;
+	right: 51%;
 }
 
 #skip {
-	left: 52%;
-}
-
-#continue {
-	position: relative;
+	left: 51%;
 }
 
 #continue-btn {
-	position: absolute;
-	top: 80%;
-	left: 29%;
-
+	position: relative;
+	background-color:#61B5B6;
+	color:white;
+ 	display:block;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	font-family:"Aller";
+	font-size:26px;
+	font-weight:bold;
+	font-style:normal;
+	height:60px;
+	line-height:60px;
+	width:140px;
+	border-radius: 25px;
+	border-color: #61B5B6;
+	box-shadow: 0px 5px 5px #6B6B6B;
+	margin-top: -13%;
+	margin-left: 42%;
 }
 /* .walk-content may not be necessary */
 .walk-content {
@@ -199,13 +214,16 @@ width: 22px;
 }
 /* .walk-img contains the code for the walkthrough1.png */
 .walk-img {
-	width:100%;
-	height:auto;
+	width:auto;
+	height:100%;
 	display:block;
-	position: absolute;
+	/* position: absolute; */
 
 }
 
+.walk1 {
+	text-align: center;
+}
 /* style for walk buttons */
 .walk-btn {
 	top: 45%;
@@ -238,7 +256,13 @@ width: 22px;
 
 
 .slide img {
-	width: 100%;
+	width: auto;
+	height: 100%;
+}
+
+#walk-slides {
+	text-align: center;
+	height: 100%;	
 }
 
 /* Guide Styles */
@@ -249,8 +273,8 @@ width: 22px;
 
 /* fixes white space on right edge of icon table */
 .guide-content #all-items {
-	left: -1%;
-	right: -1%;
+	left: -0.5%;
+	right: -0.5%;
 }
 
 /* Info Button - Guide Header */

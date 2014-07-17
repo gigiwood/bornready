@@ -1,4 +1,4 @@
-INIT_CHECKLISTS = [
+[
     {
         "housearea": "kitchen",
         "items": [
@@ -81,8 +81,7 @@ INIT_CHECKLISTS = [
             },
             {
                 "completed": "0",
-                "description": "Move all electric cords behind furniture or under rugs.",
-                "dropdown": "",
+                "description": "",
                 "id": "947f675e-9b62-4bc0-af89-b6164219c075"
             },
             {
@@ -105,8 +104,7 @@ INIT_CHECKLISTS = [
             },
             {
                 "completed": "0",
-                "description": "Put baby gates at the top and bottom of every set of stairs.",
-                "dropdown":"",
+                "description": "",
                 "id": "5e93b89b-ea8a-42b7-baa6-c753fe70fb1e"
             },
             {
