@@ -48,4 +48,41 @@ The following items are out of scope:
 	•	Bootstrap for basic styling and responsive layout
 	•	Ratchet for mobile app functionality
 	•	PhoneGap to support multiple platforms
-	
+
+##How We Developed It
+
+###Overview
+
+This mobile app is a joint project between Venture School and DevIowa. Venture School is an entrepreneurial summer school program, while DevIowa is a 9-week, full-stack coding bootcamp. Both are offered through the University of Iowa's John Pappajohn Entrepreneurial Center.
+
+This app was the brainchild of the Born Ready team at the Venture School. The app is designed to educate expecting parents and help them childproof their home. Through a series of checklists, the app allows users to go from room to room in the home, view items that need to be childproofed and use a checklist to cross those items off a to-do list once completed. 
+
+For example, the guide.html page provides a list of several rooms commonly found in the home, such as kitchen, living room, garage and nursery. Users walk into their kitchen, click on the kitchen link in the app, and a checklist of items to childproof appears. One of the kitchen checklist items is "Remove magnets from refrigerator." Once the user has completed the task, they click the box and it is checkmarked. If the user does not have magnets, they can click again, to a "non-applicable" setting. The app saves the info so users can return to their saved settings at a later time. 
+
+Kelsey Smithart and Nico Aguilar from the Venture School pitched the app idea to the DevIowa class. The greatest strength of the app included:
+	• Kelsey has a master's of science degree in occupational safety and ergonomics, wanted to create an app that would not only educate expecting parents on childproofing, but would also provide the lastest scientific research on childproofing and child safety in the home.  
+	• Nico (who has a master's degree in health administration and public health policy) meticulously created the images for the app using PowerPoint. Yes, PowerPoint. 
+	• The team had a well-developed graphic design and wireframe for the project. 
+
+This app was developed by Linda Oyolu and Gigi Wood. Linda did the heavy lifting, working through the most difficult code and solve the most challenging JavaScript issues with our DevIowa instructors. Gigi was more of a co-pilot, who asked a lot of questions and stumbled through CSS and basic JavaScript before banging her head on the wall and finally, asking for assistance.  
+
+###App Development
+Linda and Gigi started out by creating all the basic files needed: the index.html page, data.js and data.json pages, package.json file and the css stylesheet. As they slowly added code to those basic files, Linda spent her free-time taking the PowerPoint images, separating them from the files and saving them as .png files to be used for the app. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
