@@ -67,7 +67,7 @@ Kelsey Smithart and Nico Aguilar from the Venture School pitched the app idea to
 This app was developed by Linda Oyolu and Gigi Wood. Linda did the heavy lifting, working through the most difficult code and solve the most challenging JavaScript issues with our DevIowa instructors. Gigi was more of a co-pilot, who asked a lot of questions and stumbled through CSS and basic JavaScript before banging her head on the wall and finally, asking for assistance.  
 
 ###App Development
-Linda and Gigi started out by creating all the basic files needed: the index.html page, data.js and data.json pages, package.json file and the css stylesheet. As they slowly added code to those basic files, Linda spent her free-time taking the PowerPoint images, separating them from the files and saving them as .png files to be used for the app. 
+Linda and Gigi started out by creating all the basic files needed: the index.html page, data.js and data.json pages, package.json file and the css stylesheet, guide-style.css. As they slowly added code to those basic files, Linda spent her free-time taking the PowerPoint images, separating them from the files and saving them as .png files to be used for the app. 
 
 One of our DevIowa instructors suggested we use Ratchet, a Bootstrap mobile app tool, to help us develop the app. We added the Ratchet functionality, which provided some neat UI, but also came with a lot of CSS code built in and had little documentation available online when we ran into questions and problems. 
 
@@ -81,9 +81,11 @@ Next up was the coding for each room page. Before the checklist content was adde
 
 Next, Linda found and created image files to be used on the checkbox itself: a checkmark and an "x". She also worked on shading for the checkmark row, so it would be greyed out once it had been checked or "x"ed. 
 
-Another challenge was adding the slider capability, allowing users to swipe through the tutorial pages. The slider capability was difficult to get functioning through Ratchet, but with some mentoring and advice from the tutors, it was working. At that point, several people suggested a "skip" button be added to the index.html page, so users were not forced through a tutorial each time they started the app. So "tutorial" and "skip" buttons were added as buttons over the background image, and the positioning of those two buttons, as well as the "continue" button at the end of the tutorial, proved problematic as we tried to resolve responsiveness through Ratchet, the css stylesheet and the index.html page. 
+Another challenge was adding the slider capability, allowing users to swipe through the tutorial pages. The slider capability was difficult to get functioning through Ratchet, but with some mentoring and advice from the tutors, it was working. Because of how the slider function works, she linked all the walkthrough images on walkthrough2.html, so they all load together. That is also where the "continue" button can be found.
 
-Linda also created the JavaScript function code for the checklist operation, defining which image appeared in the box when it was clicked once, twice and a third time. 
+At that point, several people suggested a "skip" button be added to the index.html page, so users were not forced through a tutorial each time they started the app. So "tutorial" and "skip" buttons were added as buttons over the background image, and the positioning of those two buttons, as well as the "continue" button at the end of the tutorial, proved problematic as we tried to resolve responsiveness through Ratchet, the css stylesheet and the index.html page. 
+
+Linda also created the JavaScript function code for the checklist operation in the checklist.js file, defining which image appeared in the box when it was clicked once, twice and a third time. The checklist.js file also contains the code that allows the data to be stored locally. 
 
 
 
