@@ -87,6 +87,8 @@ At that point, several people suggested a "skip" button be added to the index.ht
 
 Linda also created the JavaScript function code for the checklist operation in the checklist.js file, defining which image appeared in the box when it was clicked once, twice and a third time. The checklist.js file also contains the code that allows the data to be stored locally. 
 
+Linda and Gigi created a PhoneGap account and merged the app with PhoneGap to test and debug it, as well as view it on other devices. 
+
 At the end of the two-week project, Gigi and Linda worked on debugging and image positioning/responsiveness. 
 
 It was a great pleasure to contribute to the Born Ready project!
