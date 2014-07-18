@@ -176,41 +176,28 @@ width: 22px;
 
 #tutorial {
 	right: 51%;
+	top: 45%;
 }
 
 #skip {
 	left: 51%;
+	top: 45%;
 }
 
 #continue-btn {
-	position: relative;
-	background-color:#61B5B6;
-	color:white;
- 	display:block;
-	text-decoration:none;
-	text-align:center;
-	text-indent:0;
-	font-family:"Aller";
-	font-size:26px;
-	font-weight:bold;
-	font-style:normal;
-	height:60px;
-	line-height:60px;
-	width:140px;
-	border-radius: 25px;
-	border-color: #61B5B6;
-	box-shadow: 0px 5px 5px #6B6B6B;
-	margin-top: -13%;
-	margin-left: 42%;
+	left: 50%;
+	bottom: 9%;
+	margin-left: -70px; /* 70px is half of btn width (140px) */
 }
-/* .walk-content may not be necessary */
+
+
 .walk-content {
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-color: #FFE7D4;
+	background-color: #FEE8D6; /* peach, light grayish orange */
 }
 /* .walk-img contains the code for the walkthrough1.png */
 .walk-img {
@@ -226,7 +213,6 @@ width: 22px;
 }
 /* style for walk buttons */
 .walk-btn {
-	top: 45%;
 	position: absolute;	
 	background-color:#61B5B6;
 	color:white;
@@ -259,6 +245,9 @@ width: 22px;
 	width: auto;
 	height: 100%;
 }
+.slider .slide-group .slide {
+	background-color: #FEE8D6; /* peach, light grayish orange */
+}
 
 #walk-slides {
 	text-align: center;
@@ -268,7 +257,7 @@ width: 22px;
 /* Guide Styles */
 #guide-heading  {
 	background-color: #FBE7D5;	/* peach, light grayish orange */
-	background-image: url(../images/guideheader.png); /*sets the background image to "born ready" graphic */
+	background-image: url(../images/guideheader2.png); /*sets the background image to "born ready" graphic */
 }
 
 /* fixes white space on right edge of icon table */
@@ -280,35 +269,56 @@ width: 22px;
 /* Info Button - Guide Header */
 /* Note: The info button is transparent and is positioned on top of the 
 	? mark image */
-.info-button {
-	width:10%;
-	position: absolute;
-	top: 60%;
-	left:80%;
-	opacity: 0;
+
+#guide-heading a:link {
+    text-decoration: none;
 }
+
+#guide-heading a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#guide-heading a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#guide-heading a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.info-button {
+	width: 30px;
+	position: absolute;
+	top: 5%;
+	right: 1%;
+	text-decoration:none;
+}
+
 .info-button-circle {
 	width: 100%;
 	height:0;
 	padding-bottom: 100%;
     border-radius: 50%;
     overflow:hidden;
-    background: #4679BD; /* blue */ 
+    background: #76B2B4;  /* teal (cyan) */
+    color: white;
+    text-align: center;
+    font-family:Arial;
+    font-size:1.2em;
+    font-weight:bold;
+    line-height: 2em;
 }
-
-.info-button a {
-	width:100%;
+/*
+#guide-heading a {
 	padding-top:50%;
     padding-bottom:50%;
 	line-height:1em;
 	margin-top:-0.5em;
-	text-align:center;
-	color:white;
-    font-family:"Aller";
-    font-size:1.2em;
-    font-weight:bold;
-    text-decoration:none;
 }
+*/
 
 /* 3x3 grid of icons for rooms */
 .guide-content .picbox {
@@ -439,4 +449,9 @@ width: 22px;
 #bathroom-heading {
     background: url(../images/header/bathroomheader2.png);
     background-color: #539597; /* teal (dark moderate cyan) */
+}
+
+.coming {
+	text-align: center;
+	background-color:  #FBE7D5; /* peach, light grayish orange */
 }

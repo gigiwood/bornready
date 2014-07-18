@@ -15,6 +15,7 @@
 
 </head>
 <body>
+
   <script src="data.js"></script>
 
   <div id="walk1" class="content walk-content">
@@ -43,18 +44,21 @@
     loadItemsAtIndex(pageIndex);
     }
 });
-/*
-$(function(){
 
-document
-.querySelector('#mySlider')
-.addEventListener('slide', myFunction)
+/*window.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+      console.log("1");
+        window.addEventListener("backbutton", function (e) {
+            e.load("html/guide.html");
+            console.log("I am working");
+            } */
 
+ /* window.addEventListener("backbutton", onBackKeyDown, false);*/
 
-})
-*/
 
 </script>
+
+
 
 </body>
 </html>
